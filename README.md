@@ -1,4 +1,4 @@
 simple_grabber
 ==============
 
-Grabs images from the SimpleDesktops RSS feed.
+Grabs images from the [SimpleDesktops](http://simpledesktops.com/) RSS feed.

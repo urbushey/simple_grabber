@@ -36,8 +36,8 @@ def scrape_link(link):
 def download_image(image):
 	""" Downloads an image, names it according to the image title from the RSS feed.
 	Returns the datetime on which the image was downloaded"""
-
-	fullpath = os.path.join(BG_DIR, image['title'])
+	filename = image['title'] + ".png"
+	fullpath = os.path.join(BG_DIR, filename)
 	response = requests.get(image['dl_link'])
 	with open(fullpath, 'wb') as fh:
 		fh.write(response.content)

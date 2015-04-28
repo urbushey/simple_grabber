@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2.7
 # simple_grabber.py
 """
 Grabs the most recent Simple Desktop images from their RSS feed and
